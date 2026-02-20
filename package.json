@@ -1,0 +1,88 @@
+{
+  "name": "blink-stack-mobile",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "description": "Expo SDK 54 mobile template with pluggable auth, subscriptions, notifications, and Sentry.",
+  "bin": {
+    "blink-stack-mobile": "bin/blink-stack-mobile.mjs"
+  },
+  "files": [
+    "app",
+    "assets",
+    "bin",
+    "src",
+    ".codex",
+    ".env.example",
+    "AGENTS.md",
+    "LICENSE",
+    "README.md",
+    "app.json",
+    "eslint.config.js",
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "expo",
+    "react-native",
+    "expo-router",
+    "tanstack-query",
+    "revenuecat",
+    "sentry",
+    "template",
+    "cli"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "npm run lint && expo start",
+    "android": "npm run lint && expo start --android",
+    "ios": "npm run lint && expo start --ios",
+    "web": "npm run lint && expo start --web",
+    "configure": "node ./bin/blink-stack-mobile.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@clerk/clerk-expo": "^2.19.26",
+    "@expo/vector-icons": "^15.0.3",
+    "@hookform/resolvers": "^5.2.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^7.1.8",
+    "@sentry/react-native": "~7.2.0",
+    "@supabase/supabase-js": "^2.97.0",
+    "@tanstack/react-query": "^5.90.21",
+    "eslint-config-expo": "~10.0.0",
+    "expo": "~54.0.33",
+    "expo-constants": "~18.0.13",
+    "expo-font": "~14.0.11",
+    "expo-linking": "~8.0.11",
+    "expo-router": "~6.0.23",
+    "expo-secure-store": "~15.0.8",
+    "expo-splash-screen": "~31.0.13",
+    "expo-status-bar": "~3.0.9",
+    "expo-web-browser": "~15.0.10",
+    "onesignal-expo-plugin": "^2.0.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.71.2",
+    "react-native": "0.81.5",
+    "react-native-appwrite": "^0.24.0",
+    "react-native-onesignal": "^5.3.1",
+    "react-native-purchases": "^9.10.3",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "~0.21.0",
+    "react-native-worklets": "0.5.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "react-test-renderer": "19.1.0",
+    "eslint": "^9.39.3",
+    "typescript": "~5.9.2"
+  },
+  "private": false
+}
