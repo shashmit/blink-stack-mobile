@@ -1,27 +1,8 @@
 {
-  "name": "blink-stack-mobile",
+  "name": "my-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "description": "Expo SDK 54 mobile template with pluggable auth, subscriptions, notifications, and Sentry.",
-  "bin": {
-    "blink-stack-mobile": "bin/blink-stack-mobile.mjs"
-  },
-  "files": [
-    "app",
-    "assets",
-    "bin",
-    "src",
-    ".codex",
-    ".env.example",
-    ".gitignore",
-    "AGENTS.md",
-    "LICENSE",
-    "README.md",
-    "app.json",
-    "eslint.config.js",
-    "package-lock.json",
-    "tsconfig.json"
-  ],
   "keywords": [
     "expo",
     "react-native",
@@ -33,9 +14,6 @@
     "cli"
   ],
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "start": "npm run lint && expo start",
     "android": "npm run lint && expo start --android",
@@ -86,5 +64,5 @@
     "eslint": "^9.39.3",
     "typescript": "~5.9.2"
   },
-  "private": false
+  "private": true
 }

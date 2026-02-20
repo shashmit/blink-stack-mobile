@@ -100,7 +100,6 @@ function updateAppJson(projectDir, appName, slug) {
   parsed.expo = parsed.expo ?? {};
   parsed.expo.name = appName;
   parsed.expo.slug = slug;
-  parsed.expo.scheme = slug;
 
   writeJson(appJsonPath, parsed);
 }

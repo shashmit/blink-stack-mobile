@@ -1,0 +1,4 @@
+interface:
+  display_name: "Expo RN Quality"
+  short_description: "Expo SDK 54 React Native quality guardrails"
+  default_prompt: "Use $react-native-expo-quality to implement this Expo React Native task with strong architecture and TypeScript safety."
