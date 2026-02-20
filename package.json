@@ -1,7 +1,7 @@
 {
   "name": "blink-stack-mobile",
   "main": "expo-router/entry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expo SDK 54 mobile template with pluggable auth, subscriptions, notifications, and Sentry.",
   "bin": {
     "blink-stack-mobile": "bin/blink-stack-mobile.mjs"
